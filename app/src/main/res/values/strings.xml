@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">SubastaApp</string>
+    <string name="login_activity_label">Iniciar Sesión</string>
+    <string name="nav_home">Inicio</string>
+    <string name="nav_profile">Perfil</string>
+    <string name="nav_settings">Configuración</string>
+
+    <string name="nav_login">Login</string>
+    <string name="nav_my_auctions">Mis Subastas</string>
+    <string name="nav_add_auction">Agregar Subasta</string>
+    <string name="nav_contact_us">Contáctanos</string>
+    <string name="nav_language">Idioma</string>
+    <string name="nav_help">Ayuda</string>
+    <string name="nav_logout">Cerrar Sesión</string>
+    <string name="navigation_drawer_open">Abrir menú de navegación</string>
+    <string name="navigation_drawer_close">Cerrar menú de navegación</string>
+
+    <!-- Strings for Create Auction Activity -->
+    <string name="select_category">Seleccione una categoría</string>
+    <string name="auction_title_hint">Título de la subasta</string>
+    <string name="auction_description_hint">Descripción</string>
+    <string name="starting_price_hint">Precio inicial</string>
+    <string name="minimum_increase_hint">Incremento mínimo</string>
+    <string name="auction_image">Imagen de la subasta</string>
+    <string name="upload_image">Subir Imagen</string>
+    <string name="create_auction">Crear Subasta</string>
+</resources>

@@ -1,0 +1,106 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <Spinner
+            android:id="@+id/auctionCategorySpinner"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:prompt="@string/select_category" />
+
+        <EditText
+            android:id="@+id/auctionTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/auction_title_hint"
+            android:inputType="text"
+            android:autofillHints="title"
+            android:minHeight="48dp"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/auctionDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/auction_description_hint"
+            android:inputType="textMultiLine"
+            android:autofillHints="description"
+            android:minLines="3"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/startingPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/starting_price_hint"
+            android:inputType="numberDecimal"
+            android:autofillHints="price"
+            android:padding="12dp" />
+
+        <EditText
+            android:id="@+id/minimumIncrease"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/minimum_increase_hint"
+            android:inputType="numberDecimal"
+            android:autofillHints="increment"
+            android:padding="12dp" />
+
+        <ImageView
+            android:id="@+id/auctionImageView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_image_placeholder"
+            android:contentDescription="@string/auction_image" />
+
+        <Button
+            android:id="@+id/uploadImageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/upload_image"
+            android:layout_gravity="center"
+            android:padding="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Selecciona la fecha y hora de finalización"
+            android:paddingTop="12dp"
+            android:paddingBottom="4dp" />
+
+        <Button
+            android:id="@+id/selectEndDateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Seleccionar fecha de finalización"
+            android:layout_gravity="center"
+            android:padding="8dp" />
+
+        <TextView
+            android:id="@+id/endDateTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:text="Fecha no seleccionada"
+            android:textAlignment="center"
+            android:textColor="#FF0000" />
+
+        <Button
+            android:id="@+id/createAuctionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/create_auction"
+            android:layout_gravity="center"
+            android:padding="12dp"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "330186239727",
+    "project_id": "subastaapp-30f21",
+    "storage_bucket": "subastaapp-30f21.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:330186239727:android:23e7e4213e14af4cc0351a",
+        "android_client_info": {
+          "package_name": "com.example.subastaapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDH9A1ZgS4CnCJ5zti64wLbzuYV9QbY7aQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_login"
+        android:icon="@drawable/ic_home"
+        android:title="Login" />
+    <item
+        android:id="@+id/nav_my_auctions"
+        android:icon="@drawable/ic_auction"
+        android:title="My Auctions" />
+    <item
+        android:id="@+id/nav_add_auction"
+        android:icon="@drawable/ic_add"
+        android:title="Add Auction" />
+    <item
+        android:id="@+id/nav_contact_us"
+        android:icon="@drawable/ic_contact"
+        android:title="Contact Us" />
+    <item
+        android:id="@+id/nav_language"
+        android:icon="@drawable/ic_language"
+        android:title="Language" />
+    <item
+        android:id="@+id/nav_help"
+        android:icon="@drawable/ic_help"
+        android:title="Help" />
+    <item
+        android:id="@+id/nav_logout"
+        android:icon="@drawable/ic_logout"
+        android:title="Logout" />
+</menu>
