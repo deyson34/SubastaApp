@@ -88,20 +88,18 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
             R.id.nav_home -> loadFragment(HomeFragment())
             R.id.nav_my_auctions -> loadFragment(MyAuctionsFragment())
             R.id.nav_add_auction -> startActivity(Intent(this, CreateAuctionActivity::class.java))
+            R.id.nav_help -> startActivity(Intent(this, HelpActivity::class.java)) // Habilita "Help"
             R.id.nav_logout -> {
-                // Cerrar sesión en Firebase (si estás usando FirebaseAuth)
                 FirebaseAuth.getInstance().signOut()
-
-                // Redirigir al LoginActivity
                 val intent = Intent(this, LoginActivity::class.java)
                 intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
                 startActivity(intent)
             }
         }
-
         drawerLayout.closeDrawer(GravityCompat.START)
         return true
     }
+
 
     // Controlar el botón de retroceso cuando el Drawer está abierto
     override fun onBackPressed() {
